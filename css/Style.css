@@ -1,0 +1,140 @@
+html{
+    background-origin: padding-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 100%;
+}
+h2{
+    color: #ca2a1d;
+    margin-bottom: 1.25em;
+}
+p{
+    font-size: 1em;
+    color: #000000;
+    text-align: justify;
+}
+.banner{
+    width: 50%;
+    height: 20%;
+}
+.bar {
+    background-color: #ca2a1d;
+    overflow: hidden;
+}
+.contenedor{
+    max-width: 75em;
+    margin: 0 auto;
+}
+.side-header{
+    padding: 1.25em 0;
+}
+/*Navegacion del menu*/
+.main-nav {
+    padding: 1.25em 0;
+}
+.main-nav a:hover{
+    background-color: #4eadf8;
+}
+.main-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.37em;
+    padding: 1.25em;
+    text-align: center;
+    display: block;
+    transition: background-color 0.4s ease-in-out;
+}
+@media (min-width: 768px){
+    .main-nav a{
+        display: inline;
+    }
+}
+/*Contenido*/
+.main-content{
+    margin-top: 2.5em;
+    padding: 0;
+}
+@media(min-width: 768px){
+    .main-content{
+        width: 70%;
+        float: left;
+        padding: 0 3.75em 0 0;
+    }
+}
+.ent {
+    margin-bottom: 3.75em;
+}
+.ent:last-of-type {
+    margin-bottom: 0;
+}
+.ent img {
+    display: block;
+}
+@media (min-width: 768px) {
+    .ent img {
+        width: 18.75em;
+        float: left;
+        margin: 0 1.25em 0 0;
+    }
+}
+.ent p { 
+    text-align: justify;
+}
+/* Footer */
+.footer-site {
+    background-color: #ca2a1d;
+    margin-top: 3.75em;
+    padding-top: 2.5em;
+    text-align: center;
+}
+.footer-site h2 {
+    color: #ffffff;
+}
+.footer-site a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 1.25em;
+}
+.footer-site a:last-of-type {
+    margin-right: 0;
+}
+.footer-site p {
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+    .footer-site .about-us {
+        float: left;
+        width: 35%;
+        text-align: left;
+    }
+.footer-site .footer-menu {
+        float: right;
+        width: 65%;
+        text-align: right;
+  }
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.copyright {
+    background-color: #ff6147;
+    padding: 1.25em 0;
+    text-align: center;
+}
+/*Creditos*/
+.creditos{
+    font-size: 0.5em;
+    color: #000000;
+    text-align: justify;
+}
